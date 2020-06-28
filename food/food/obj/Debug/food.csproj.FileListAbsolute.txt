@@ -1,0 +1,194 @@
+c:\users\samereh\documents\visual studio 2012\Projects\food\food\bin\Debug\food.exe.config
+c:\users\samereh\documents\visual studio 2012\Projects\food\food\bin\Debug\food.exe
+c:\users\samereh\documents\visual studio 2012\Projects\food\food\bin\Debug\food.pdb
+c:\users\samereh\documents\visual studio 2012\Projects\food\food\bin\Debug\FarsiLibrary.Resources.dll
+c:\users\samereh\documents\visual studio 2012\Projects\food\food\bin\Debug\FarsiLibrary.Utils.dll
+c:\users\samereh\documents\visual studio 2012\Projects\food\food\bin\Debug\FarsiLibrary.Win.dll
+c:\users\samereh\documents\visual studio 2012\Projects\food\food\obj\Debug\food.csprojResolveAssemblyReference.cache
+c:\users\samereh\documents\visual studio 2012\Projects\food\food\obj\Debug\food.backup.resources
+c:\users\samereh\documents\visual studio 2012\Projects\food\food\obj\Debug\food.Form1.resources
+c:\users\samereh\documents\visual studio 2012\Projects\food\food\obj\Debug\food.Properties.Resources.resources
+c:\users\samereh\documents\visual studio 2012\Projects\food\food\obj\Debug\food.csproj.GenerateResource.Cache
+c:\users\samereh\documents\visual studio 2012\Projects\food\food\obj\Debug\food.exe
+c:\users\samereh\documents\visual studio 2012\Projects\food\food\obj\Debug\food.pdb
+C:\Users\samereh\documents\visual studio 2012\Projects\food\food\obj\Debug\food.ثبت_غذا.resources
+C:\Users\samereh\documents\visual studio 2012\Projects\food\food\obj\Debug\food.ویرایش_غذا.resources
+C:\Users\samereh\documents\visual studio 2012\Projects\food\food\obj\Debug\food.factor.resources
+D:\food\food\bin\Debug\food.exe.config
+D:\food\food\obj\Debug\food.exe
+D:\food\food\obj\Debug\food.pdb
+D:\food\food\bin\Debug\food.exe
+D:\food\food\bin\Debug\food.pdb
+D:\food\food\obj\Debug\food.csprojResolveAssemblyReference.cache
+D:\food\food\obj\Debug\food.backup.resources
+D:\food\food\obj\Debug\food.factor.resources
+D:\food\food\obj\Debug\food.Form1.resources
+D:\food\food\obj\Debug\food.Properties.Resources.resources
+D:\food\food\obj\Debug\food.ثبت_غذا.resources
+D:\food\food\obj\Debug\food.ویرایش_غذا.resources
+D:\food\food\obj\Debug\food.csproj.GenerateResource.Cache
+D:\food\food\obj\Debug\food.گزارشات.resources
+D:\food\food\obj\Debug\food.ثبت_سفارش.resources
+D:\food\food\obj\Debug\food.گزارشات_سفارش.resources
+D:\food\food\obj\Debug\food.تغییر_سفارش.resources
+D:\food\food\obj\Debug\food.لیست_سفارش_ها.resources
+D:\food\food\obj\Debug\food.اتمام_سفارش.resources
+E:\aaaaaaaaaaaa\food\food\bin\Debug\food.exe.config
+E:\aaaaaaaaaaaa\food\food\obj\Debug\food.exe
+E:\aaaaaaaaaaaa\food\food\obj\Debug\food.pdb
+E:\aaaaaaaaaaaa\food\food\bin\Debug\food.exe
+E:\aaaaaaaaaaaa\food\food\bin\Debug\food.pdb
+E:\aaaaaaaaaaaa\food\food\obj\Debug\food.csprojResolveAssemblyReference.cache
+E:\aaaaaaaaaaaa\food\food\obj\Debug\food.backup.resources
+E:\aaaaaaaaaaaa\food\food\obj\Debug\food.factor.resources
+E:\aaaaaaaaaaaa\food\food\obj\Debug\food.Form1.resources
+E:\aaaaaaaaaaaa\food\food\obj\Debug\food.Properties.Resources.resources
+E:\aaaaaaaaaaaa\food\food\obj\Debug\food.اتمام_سفارش.resources
+E:\aaaaaaaaaaaa\food\food\obj\Debug\food.تغییر_سفارش.resources
+E:\aaaaaaaaaaaa\food\food\obj\Debug\food.ثبت_سفارش.resources
+E:\aaaaaaaaaaaa\food\food\obj\Debug\food.ثبت_غذا.resources
+E:\aaaaaaaaaaaa\food\food\obj\Debug\food.لیست_سفارش_ها.resources
+E:\aaaaaaaaaaaa\food\food\obj\Debug\food.ویرایش_غذا.resources
+E:\aaaaaaaaaaaa\food\food\obj\Debug\food.گزارشات_سفارش.resources
+E:\aaaaaaaaaaaa\food\food\obj\Debug\food.گزارشات.resources
+E:\aaaaaaaaaaaa\food\food\obj\Debug\food.csproj.GenerateResource.Cache
+E:\aaaaaaaaaaaa\food\food\obj\Debug\food.هزینه_سفارش.resources
+E:\aaaaaaaaaaaa\food\food\obj\Debug\food.سفارشات_تموم_شده.resources
+E:\aaaaaaaaaaaa\food\food\obj\Debug\food.مدیریت_سفارشات.resources
+E:\aaaaaaaaaaaa\food\food\obj\Debug\food.لیست_کل_سفارشات.resources
+E:\aaaaaaaaaaaa\food\food\obj\Debug\food.زمانهای_مجالس.resources
+E:\aaaaaaaaaaaa\food\food\obj\Debug\food.اطلاعات_کامل_سفارش.resources
+E:\aaaaaaaaaaaa\food\food\obj\Debug\food.Form2.resources
+E:\aaaaaaaaaaaa\food\food\obj\Debug\food.حسابداری.resources
+E:\aaaaaaaaaaaa\food\food\bin\Debug\TxtProNetV3.dll
+E:\aaaaaaaaaaaa\food\food\obj\Debug\food.Form3.resources
+E:\aaaaaaaaaaaa\food\food\obj\Debug\RdlCompile.cache
+E:\aaaaaaaaaaaa\food\food\obj\Debug\RdlCompile.compiled
+E:\aaaaaaaaaaaa\food\food\obj\Debug\food.msg.resources
+E:\aaaaaaaaaaaa\food\food\obj\Debug\food.تغییر_فاکتور.resources
+E:\aaaaaaaaaaaa\food\food\obj\Debug\food.لیست_فاکتور.resources
+D:\food-2\food\food\bin\Debug\food.exe.config
+D:\food-2\food\food\obj\Debug\food.exe
+D:\food-2\food\food\obj\Debug\food.pdb
+D:\food-2\food\food\bin\Debug\food.exe
+D:\food-2\food\food\bin\Debug\food.pdb
+D:\food-2\food\food\obj\Debug\food.backup.resources
+D:\food-2\food\food\obj\Debug\food.factor.resources
+D:\food-2\food\food\obj\Debug\food.Form1.resources
+D:\food-2\food\food\obj\Debug\food.Form2.resources
+D:\food-2\food\food\obj\Debug\food.Form3.resources
+D:\food-2\food\food\obj\Debug\food.msg.resources
+D:\food-2\food\food\obj\Debug\food.Properties.Resources.resources
+D:\food-2\food\food\obj\Debug\food.اطلاعات_کامل_سفارش.resources
+D:\food-2\food\food\obj\Debug\food.تغییر_سفارش.resources
+D:\food-2\food\food\obj\Debug\food.تغییر_فاکتور.resources
+D:\food-2\food\food\obj\Debug\food.ثبت_سفارش.resources
+D:\food-2\food\food\obj\Debug\food.ثبت_غذا.resources
+D:\food-2\food\food\obj\Debug\food.حسابداری.resources
+D:\food-2\food\food\obj\Debug\food.زمانهای_مجالس.resources
+D:\food-2\food\food\obj\Debug\food.لیست_سفارش_ها.resources
+D:\food-2\food\food\obj\Debug\food.لیست_فاکتور.resources
+D:\food-2\food\food\obj\Debug\food.لیست_کل_سفارشات.resources
+D:\food-2\food\food\obj\Debug\food.مدیریت_سفارشات.resources
+D:\food-2\food\food\obj\Debug\food.هزینه_سفارش.resources
+D:\food-2\food\food\obj\Debug\food.ویرایش_غذا.resources
+D:\food-2\food\food\obj\Debug\food.گزارشات_سفارش.resources
+D:\food-2\food\food\obj\Debug\food.گزارشات.resources
+D:\food-2\food\food\obj\Debug\food.csproj.GenerateResource.Cache
+D:\food-2\food\food\obj\Debug\RdlCompile.cache
+D:\food-2\food\food\obj\Debug\RdlCompile.compiled
+D:\food-2\food\food\obj\Debug\food.گزارش_غذا.resources
+D:\food-2\food\food\obj\Debug\food.تنظیمات_غذای_آشپزخانه.resources
+D:\food-2\food\food\obj\Debug\food.داشبورد.resources
+D:\food-2\food\food\obj\Debug\food.لیست_سفارشات_بایگانی_شده.resources
+D:\food-2\food\food\obj\Debug\food.لیست_سفارشات.resources
+D:\food-2\food\food\obj\Debug\food.جستجو_شماره_سفارش.resources
+D:\food-2\food\food\obj\Debug\food.csprojResolveAssemblyReference.cache
+F:\food-2\food\food\bin\Debug\food.exe.config
+F:\food-2\food\food\obj\Debug\food.exe
+F:\food-2\food\food\obj\Debug\food.pdb
+F:\food-2\food\food\bin\Debug\food.exe
+F:\food-2\food\food\bin\Debug\food.pdb
+F:\food-2\food\food\obj\Debug\food.csprojResolveAssemblyReference.cache
+F:\food-2\food\food\obj\Debug\food.backup.resources
+F:\food-2\food\food\obj\Debug\food.factor.resources
+F:\food-2\food\food\obj\Debug\food.Form1.resources
+F:\food-2\food\food\obj\Debug\food.Form2.resources
+F:\food-2\food\food\obj\Debug\food.Form3.resources
+F:\food-2\food\food\obj\Debug\food.msg.resources
+F:\food-2\food\food\obj\Debug\food.Properties.Resources.resources
+F:\food-2\food\food\obj\Debug\food.اطلاعات_کامل_سفارش.resources
+F:\food-2\food\food\obj\Debug\food.تغییر_سفارش.resources
+F:\food-2\food\food\obj\Debug\food.تغییر_فاکتور.resources
+F:\food-2\food\food\obj\Debug\food.تنظیمات_غذای_آشپزخانه.resources
+F:\food-2\food\food\obj\Debug\food.ثبت_سفارش.resources
+F:\food-2\food\food\obj\Debug\food.ثبت_غذا.resources
+F:\food-2\food\food\obj\Debug\food.جستجو_شماره_سفارش.resources
+F:\food-2\food\food\obj\Debug\food.حسابداری.resources
+F:\food-2\food\food\obj\Debug\food.داشبورد.resources
+F:\food-2\food\food\obj\Debug\food.زمانهای_مجالس.resources
+F:\food-2\food\food\obj\Debug\food.لیست_سفارش_ها.resources
+F:\food-2\food\food\obj\Debug\food.لیست_سفارشات_بایگانی_شده.resources
+F:\food-2\food\food\obj\Debug\food.لیست_سفارشات.resources
+F:\food-2\food\food\obj\Debug\food.لیست_فاکتور.resources
+F:\food-2\food\food\obj\Debug\food.لیست_کل_سفارشات.resources
+F:\food-2\food\food\obj\Debug\food.مدیریت_سفارشات.resources
+F:\food-2\food\food\obj\Debug\food.هزینه_سفارش.resources
+F:\food-2\food\food\obj\Debug\food.ویرایش_غذا.resources
+F:\food-2\food\food\obj\Debug\food.گزارش_غذا.resources
+F:\food-2\food\food\obj\Debug\food.گزارشات.resources
+F:\food-2\food\food\obj\Debug\food.csproj.GenerateResource.Cache
+F:\food-2\food\food\obj\Debug\RdlCompile.cache
+F:\food-2\food\food\obj\Debug\RdlCompile.compiled
+F:\food-2\food\food\obj\Debug\food.لیست_سفارشات_بر_اساس_نام_سفارش_دهنده.resources
+G:\food-2\food\food\bin\Debug\food.exe.config
+G:\food-2\food\food\obj\Debug\food.exe
+G:\food-2\food\food\obj\Debug\food.pdb
+G:\food-2\food\food\bin\Debug\food.exe
+G:\food-2\food\food\bin\Debug\food.pdb
+G:\food-2\food\food\obj\Debug\food.backup.resources
+G:\food-2\food\food\obj\Debug\food.factor.resources
+G:\food-2\food\food\obj\Debug\food.Form1.resources
+G:\food-2\food\food\obj\Debug\food.Form2.resources
+G:\food-2\food\food\obj\Debug\food.Form3.resources
+G:\food-2\food\food\obj\Debug\food.msg.resources
+G:\food-2\food\food\obj\Debug\food.Properties.Resources.resources
+G:\food-2\food\food\obj\Debug\food.اطلاعات_کامل_سفارش.resources
+G:\food-2\food\food\obj\Debug\food.تغییر_سفارش.resources
+G:\food-2\food\food\obj\Debug\food.تغییر_فاکتور.resources
+G:\food-2\food\food\obj\Debug\food.تنظیمات_غذای_آشپزخانه.resources
+G:\food-2\food\food\obj\Debug\food.ثبت_سفارش.resources
+G:\food-2\food\food\obj\Debug\food.ثبت_غذا.resources
+G:\food-2\food\food\obj\Debug\food.جستجو_شماره_سفارش.resources
+G:\food-2\food\food\obj\Debug\food.حسابداری.resources
+G:\food-2\food\food\obj\Debug\food.داشبورد.resources
+G:\food-2\food\food\obj\Debug\food.زمانهای_مجالس.resources
+G:\food-2\food\food\obj\Debug\food.لیست_سفارش_ها.resources
+G:\food-2\food\food\obj\Debug\food.لیست_سفارشات_بایگانی_شده.resources
+G:\food-2\food\food\obj\Debug\food.لیست_سفارشات_بر_اساس_نام_سفارش_دهنده.resources
+G:\food-2\food\food\obj\Debug\food.لیست_سفارشات.resources
+G:\food-2\food\food\obj\Debug\food.لیست_فاکتور.resources
+G:\food-2\food\food\obj\Debug\food.لیست_کل_سفارشات.resources
+G:\food-2\food\food\obj\Debug\food.مدیریت_سفارشات.resources
+G:\food-2\food\food\obj\Debug\food.هزینه_سفارش.resources
+G:\food-2\food\food\obj\Debug\food.ویرایش_غذا.resources
+G:\food-2\food\food\obj\Debug\food.گزارش_غذا.resources
+G:\food-2\food\food\obj\Debug\food.گزارشات.resources
+G:\food-2\food\food\obj\Debug\food.csproj.GenerateResource.Cache
+G:\food-2\food\food\obj\Debug\RdlCompile.cache
+G:\food-2\food\food\obj\Debug\RdlCompile.compiled
+G:\food-2\food\food\obj\Debug\food.تغییر_اطلاعات_فاکتورها.resources
+G:\food-2\food\food\obj\Debug\food.تغییر_سفارش2.resources
+G:\food-2\food\food\obj\Debug\food.هزینه_سفارش2.resources
+G:\food-2\food\food\obj\Debug\food.جستجو_برای_مالی.resources
+G:\food-2\food\food\obj\Debug\food.حذف_فاکتور.resources
+G:\food-2\food\food\obj\Debug\food.حذف_سفارش.resources
+G:\food-2\food\food\obj\Debug\food.بدهکار.resources
+G:\food-2\food\food\obj\Debug\food.اطلاعات_بدهکاران.resources
+G:\food-2\food\food\obj\Debug\food.csprojResolveAssemblyReference.cache
+G:\food-2\food\food\obj\Debug\food.آشپزخانه_ارفع_کوه.resources
+G:\food-2\food\food\obj\Debug\food.اشتراک.resources
+G:\food-2\food\food\obj\Debug\food.ثبت_اشتراک.resources
+F:\barnamenevisi\آشپزخانه مرکزی\food\food\bin\Debug\food.exe.config
+F:\barnamenevisi\آشپزخانه مرکزی\food\food\obj\Debug\food.exe
+F:\barnamenevisi\آشپزخانه مرکزی\food\food\obj\Debug\food.pdb

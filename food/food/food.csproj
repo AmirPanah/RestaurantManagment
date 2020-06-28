@@ -1,0 +1,799 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0D817D12-2FEC-47AF-AC9F-CF63DF9A089A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>food</RootNamespace>
+    <AssemblyName>food</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FarsiLibrary.Resources">
+      <HintPath>..\..\..\..\..\Desktop\FarsiLibrary.Resources.dll</HintPath>
+    </Reference>
+    <Reference Include="FarsiLibrary.Utils">
+      <HintPath>..\..\..\..\..\Desktop\FarsiLibrary.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="FarsiLibrary.Win">
+      <HintPath>..\..\..\..\..\Desktop\FarsiLibrary.Win.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TextBoxPerffosional, Version=1.0.4996.29801, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\TextBoxPerffosional.dll</HintPath>
+    </Reference>
+    <Reference Include="TxtProNetV3">
+      <HintPath>..\..\..\کامپوننت\TxtProNetV3.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="backup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="backup.Designer.cs">
+      <DependentUpon>backup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBManagment.cs" />
+    <Compile Include="factor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="factor.Designer.cs">
+      <DependentUpon>factor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FoodDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FoodDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GridView.cs" />
+    <Compile Include="msg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="msg.Designer.cs">
+      <DependentUpon>msg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="آشپزخانه ارفع کوه.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="آشپزخانه ارفع کوه.Designer.cs">
+      <DependentUpon>آشپزخانه ارفع کوه.cs</DependentUpon>
+    </Compile>
+    <Compile Include="اشتراک.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="اشتراک.Designer.cs">
+      <DependentUpon>اشتراک.cs</DependentUpon>
+    </Compile>
+    <Compile Include="اطلاعات بدهکاران.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="اطلاعات بدهکاران.Designer.cs">
+      <DependentUpon>اطلاعات بدهکاران.cs</DependentUpon>
+    </Compile>
+    <Compile Include="اطلاعات کامل سفارش.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="اطلاعات کامل سفارش.Designer.cs">
+      <DependentUpon>اطلاعات کامل سفارش.cs</DependentUpon>
+    </Compile>
+    <Compile Include="بدهکار.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="بدهکار.Designer.cs">
+      <DependentUpon>بدهکار.cs</DependentUpon>
+    </Compile>
+    <Compile Include="تغییر اطلاعات فاکتورها.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="تغییر اطلاعات فاکتورها.Designer.cs">
+      <DependentUpon>تغییر اطلاعات فاکتورها.cs</DependentUpon>
+    </Compile>
+    <Compile Include="تغییر سفارش.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="تغییر سفارش.Designer.cs">
+      <DependentUpon>تغییر سفارش.cs</DependentUpon>
+    </Compile>
+    <Compile Include="تغییر سفارش2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="تغییر سفارش2.Designer.cs">
+      <DependentUpon>تغییر سفارش2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="تغییر فاکتور.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="تغییر فاکتور.Designer.cs">
+      <DependentUpon>تغییر فاکتور.cs</DependentUpon>
+    </Compile>
+    <Compile Include="تنظیمات غذای آشپزخانه.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="تنظیمات غذای آشپزخانه.Designer.cs">
+      <DependentUpon>تنظیمات غذای آشپزخانه.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ثبت اشتراک.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ثبت اشتراک.Designer.cs">
+      <DependentUpon>ثبت اشتراک.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ثبت سفارش مجالس.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ثبت سفارش مجالس.Designer.cs">
+      <DependentUpon>ثبت سفارش مجالس.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ثبت غذا.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ثبت غذا.Designer.cs">
+      <DependentUpon>ثبت غذا.cs</DependentUpon>
+    </Compile>
+    <Compile Include="جستجو برای مالی سفارش.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="جستجو برای مالی سفارش.Designer.cs">
+      <DependentUpon>جستجو برای مالی سفارش.cs</DependentUpon>
+    </Compile>
+    <Compile Include="جستجو شماره سفارش.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="جستجو شماره سفارش.Designer.cs">
+      <DependentUpon>جستجو شماره سفارش.cs</DependentUpon>
+    </Compile>
+    <Compile Include="حذف سفارش.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="حذف سفارش.Designer.cs">
+      <DependentUpon>حذف سفارش.cs</DependentUpon>
+    </Compile>
+    <Compile Include="حذف فاکتور.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="حذف فاکتور.Designer.cs">
+      <DependentUpon>حذف فاکتور.cs</DependentUpon>
+    </Compile>
+    <Compile Include="حسابداری.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="حسابداری.Designer.cs">
+      <DependentUpon>حسابداری.cs</DependentUpon>
+    </Compile>
+    <Compile Include="داشبورد.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="داشبورد.Designer.cs">
+      <DependentUpon>داشبورد.cs</DependentUpon>
+    </Compile>
+    <Compile Include="زمانهای مجالس.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="زمانهای مجالس.Designer.cs">
+      <DependentUpon>زمانهای مجالس.cs</DependentUpon>
+    </Compile>
+    <Compile Include="لیست سفارش های بایگانی نشده.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="لیست سفارش های بایگانی نشده.Designer.cs">
+      <DependentUpon>لیست سفارش های بایگانی نشده.cs</DependentUpon>
+    </Compile>
+    <Compile Include="لیست سفارشات بایگانی شده.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="لیست سفارشات بایگانی شده.Designer.cs">
+      <DependentUpon>لیست سفارشات بایگانی شده.cs</DependentUpon>
+    </Compile>
+    <Compile Include="لیست سفارشات بر اساس نام سفارش دهنده.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="لیست سفارشات بر اساس نام سفارش دهنده.Designer.cs">
+      <DependentUpon>لیست سفارشات بر اساس نام سفارش دهنده.cs</DependentUpon>
+    </Compile>
+    <Compile Include="لیست سفارشات.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="لیست سفارشات.Designer.cs">
+      <DependentUpon>لیست سفارشات.cs</DependentUpon>
+    </Compile>
+    <Compile Include="لیست فاکتور.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="لیست فاکتور.Designer.cs">
+      <DependentUpon>لیست فاکتور.cs</DependentUpon>
+    </Compile>
+    <Compile Include="لیست کل سفارشات.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="لیست کل سفارشات.Designer.cs">
+      <DependentUpon>لیست کل سفارشات.cs</DependentUpon>
+    </Compile>
+    <Compile Include="مدیریت سفارشات.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="مدیریت سفارشات.Designer.cs">
+      <DependentUpon>مدیریت سفارشات.cs</DependentUpon>
+    </Compile>
+    <Compile Include="هزینه سفارش.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="هزینه سفارش.Designer.cs">
+      <DependentUpon>هزینه سفارش.cs</DependentUpon>
+    </Compile>
+    <Compile Include="هزینه سفارش2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="هزینه سفارش2.Designer.cs">
+      <DependentUpon>هزینه سفارش2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ویرایش غذا.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ویرایش غذا.Designer.cs">
+      <DependentUpon>ویرایش غذا.cs</DependentUpon>
+    </Compile>
+    <Compile Include="گزارش غذا.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="گزارش غذا.Designer.cs">
+      <DependentUpon>گزارش غذا.cs</DependentUpon>
+    </Compile>
+    <Compile Include="گزارشات فاکتور.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="گزارشات فاکتور.Designer.cs">
+      <DependentUpon>گزارشات فاکتور.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="backup.resx">
+      <DependentUpon>backup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="factor.resx">
+      <DependentUpon>factor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="msg.resx">
+      <DependentUpon>msg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="آشپزخانه ارفع کوه.resx">
+      <DependentUpon>آشپزخانه ارفع کوه.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="اشتراک.resx">
+      <DependentUpon>اشتراک.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="اطلاعات بدهکاران.resx">
+      <DependentUpon>اطلاعات بدهکاران.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="اطلاعات کامل سفارش.resx">
+      <DependentUpon>اطلاعات کامل سفارش.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="بدهکار.resx">
+      <DependentUpon>بدهکار.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="تغییر اطلاعات فاکتورها.resx">
+      <DependentUpon>تغییر اطلاعات فاکتورها.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="تغییر سفارش.resx">
+      <DependentUpon>تغییر سفارش.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="تغییر سفارش2.resx">
+      <DependentUpon>تغییر سفارش2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="تغییر فاکتور.resx">
+      <DependentUpon>تغییر فاکتور.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="تنظیمات غذای آشپزخانه.resx">
+      <DependentUpon>تنظیمات غذای آشپزخانه.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ثبت اشتراک.resx">
+      <DependentUpon>ثبت اشتراک.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ثبت سفارش مجالس.resx">
+      <DependentUpon>ثبت سفارش مجالس.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ثبت غذا.resx">
+      <DependentUpon>ثبت غذا.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="جستجو برای مالی سفارش.resx">
+      <DependentUpon>جستجو برای مالی سفارش.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="جستجو شماره سفارش.resx">
+      <DependentUpon>جستجو شماره سفارش.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="حذف سفارش.resx">
+      <DependentUpon>حذف سفارش.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="حذف فاکتور.resx">
+      <DependentUpon>حذف فاکتور.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="حسابداری.resx">
+      <DependentUpon>حسابداری.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="داشبورد.resx">
+      <DependentUpon>داشبورد.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="زمانهای مجالس.resx">
+      <DependentUpon>زمانهای مجالس.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="لیست سفارش های بایگانی نشده.resx">
+      <DependentUpon>لیست سفارش های بایگانی نشده.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="لیست سفارشات بایگانی شده.resx">
+      <DependentUpon>لیست سفارشات بایگانی شده.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="لیست سفارشات بر اساس نام سفارش دهنده.resx">
+      <DependentUpon>لیست سفارشات بر اساس نام سفارش دهنده.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="لیست سفارشات.resx">
+      <DependentUpon>لیست سفارشات.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="لیست فاکتور.resx">
+      <DependentUpon>لیست فاکتور.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="لیست کل سفارشات.resx">
+      <DependentUpon>لیست کل سفارشات.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="مدیریت سفارشات.resx">
+      <DependentUpon>مدیریت سفارشات.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="هزینه سفارش.resx">
+      <DependentUpon>هزینه سفارش.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="هزینه سفارش2.resx">
+      <DependentUpon>هزینه سفارش2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ویرایش غذا.resx">
+      <DependentUpon>ویرایش غذا.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="گزارش غذا.resx">
+      <DependentUpon>گزارش غذا.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="گزارشات فاکتور.resx">
+      <DependentUpon>گزارشات فاکتور.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="FoodDBDataSet.xsc">
+      <DependentUpon>FoodDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="FoodDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FoodDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FoodDBDataSet.xss">
+      <DependentUpon>FoodDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\index.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\100.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\101.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1011.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1012.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\44.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\55.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Parand W2009.1.5 %2805%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1010.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10101.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5252.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\99.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\85.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\51.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\52.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\53.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\54.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\56.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10102.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\74141.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\741411.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8989.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\89891.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\89892.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10103.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\57.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\index1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\index2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\index3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\index4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\index5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\91.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1020.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\42000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\420001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\420002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\420003.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\420004.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\420005.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\420006.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\40000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\400001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\400002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\400003.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\400004.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\400005.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\400006.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5555222.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\991.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\992.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\92.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\93.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\94.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\95.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\201.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\202.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\203.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\204.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\205.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\206.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\207.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6666.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\66661.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\66662.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\66663.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\66664.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\900.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2ص.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ه.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\فغ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\خهخ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hyhy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\خهخ1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hyhy1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\هنخهنخم.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\خهخ2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hyhy2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\خهخ3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hyhy3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2ص1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\هنخهنخم1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\خهخ4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hyhy4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\هنخهنخم2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2ص2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\خهخ5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hyhy5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\هنخهنخم3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2ص3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\خهخ6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hyhy6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\خهخ7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\خهخ8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hyhy7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2ص4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\هنخهنخم4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\خهخ9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hyhy8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\هنخهنخم5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2ص5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\هنخهنخم6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\هنخهنخم7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2ص6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lk.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lk1.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -20,7 +20,7 @@ namespace food
         private void Form3_Load(object sender, EventArgs e)
         {
             // TODO: This line of code loads data into the 'FoodDBDataSet.Factor' table. You can move, or remove it, as needed.
-            this.FactorTableAdapter.Fill(this.FoodDBDataSet.Factor);
+            this.FactorTableAdapter.Fill(this.FoodDBDataSet.Factor);// Fill data of user
 
             this.reportViewer1.RefreshReport();
         }
